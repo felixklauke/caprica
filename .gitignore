@@ -9,7 +9,6 @@ yarn-error.log*
 
 # Runtime data
 pids
-.idea
 *.pid
 *.seed
 *.pid.lock
@@ -59,6 +58,7 @@ typings/
 
 # dotenv environment variables file
 .env
+.idea
 logs
 *.log
 npm-debug.log*
