@@ -2,14 +2,18 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
     a.navbar-brand(href='/') #{title}
     button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNav', aria-controls='navbarNav', aria-expanded='false', aria-label='Toggle navigation')
         span.navbar-toggler-icon
+
     #navbarNav.collapse.navbar-collapse
-        ul.navbar-nav
+        ul.navbar-nav.mr-auto
             if currentPage == "dashboard"
                 li(class="nav-item active")
                     a(class="nav-link" href="/") Dashboard
             else
                 li(class="nav-item")
                     a(class="nav-link" href="/") Dashboard
+
+        span.navbar-text
+        include navigation_user_state
 
 
 
