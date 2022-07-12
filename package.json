@@ -9,7 +9,7 @@
     "body-parser": "~1.19.0",
     "bootstrap": "^4.4.1",
     "cookie-parser": "~1.4.6",
-    "debug": "~4.1.1",
+    "debug": "~4.3.4",
     "express": "~4.18.1",
     "jade": "~1.11.0",
     "jquery": "^3.6.0",
